@@ -1,6 +1,6 @@
 cask "nethack-tiles-client" do
-  version "0.1.1"
-  sha256 "48d1f9b83c0cade58bd15fa4c4eac34e7c99dd2a8c0f46c5aed1697c172271ca"
+  version "0.1.2"
+  sha256 "1be54e35d1c83462984c0a1ba615a70d8d5a230276c083cf07a4428f2934e08b"
 
   url "https://github.com/statico/nethack-tiles-client/releases/download/v#{version}/NetHack.Tiles.Client_#{version}_universal.dmg"
   name "NetHack Tiles Client"
