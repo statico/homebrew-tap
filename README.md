@@ -16,7 +16,7 @@ brew tap statico/tap
 ## Casks
 
 - **[macotron](https://github.com/statico/macotron)** — Scriptable macOS automation with
-  JavaScript plugins. `brew install --cask statico/tap/macotron`
+  JavaScript plugins. `brew install statico/tap/macotron`
 - **[nethack-tiles-client](https://github.com/statico/nethack-tiles-client)** — Play NetHack on
   the public servers with graphical tiles.
-  `brew install --cask statico/tap/nethack-tiles-client`
+  `brew install statico/tap/nethack-tiles-client`
