@@ -1,6 +1,6 @@
 cask "macotron" do
-  version "0.2.7"
-  sha256 "53e8b0e44d12835cdc35a539260adfc5e4b5d1956093bf24fbc205ef63e6ce26"
+  version "0.2.8"
+  sha256 "c423275d26350476a4005d3de847b7223512f58f0be747b9722d119bfb68c589"
 
   url "https://github.com/statico/macotron/releases/download/v#{version}/Macotron-#{version}.dmg"
   name "Macotron"
@@ -18,6 +18,7 @@ cask "macotron" do
 
   zap trash: [
     "~/Library/Application Support/Macotron",
+    "~/Library/Caches/io.statico.macotron",
     "~/Library/Preferences/io.statico.macotron.plist",
     "~/Library/Saved Application State/io.statico.macotron.savedState",
   ]
