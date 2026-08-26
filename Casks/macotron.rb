@@ -1,6 +1,6 @@
 cask "macotron" do
-  version "0.2.8"
-  sha256 "c423275d26350476a4005d3de847b7223512f58f0be747b9722d119bfb68c589"
+  version "0.2.9"
+  sha256 "a8e516e5f6bc599194c935c91f6f6f2899707053de1d6bdeb7b55a84ce3ab66b"
 
   url "https://github.com/statico/macotron/releases/download/v#{version}/Macotron-#{version}.dmg"
   name "Macotron"
@@ -11,6 +11,10 @@ cask "macotron" do
     url :url
     strategy :github_latest
   end
+
+  # Macotron updates itself with Sparkle. Without this, brew would offer an
+  # upgrade the app has already installed, then disagree about what is there.
+  auto_updates true
 
   depends_on macos: :sequoia
 
