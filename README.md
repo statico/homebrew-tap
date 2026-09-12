@@ -12,6 +12,9 @@ brew tap statico/tap
   command line. `brew install statico/tap/llmac`
 - **[llmscript](https://github.com/statico/llmscript)** — Write your shell scripts in natural
   language. `brew install statico/tap/llmscript`
+- **[ttmux](https://github.com/statico/ttmux)** — A modern multiplexer alternative, with
+  floating panes, mouse support, and a settings screen.
+  `brew install statico/tap/ttmux`
 
 ## Casks
 
