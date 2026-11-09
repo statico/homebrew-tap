@@ -1,6 +1,6 @@
 cask "macotron" do
-  version "1.0.6"
-  sha256 "efbda7c5d8d47f668b1257ffb4cb5a626fbe44746290ef938d1b8d572547a35a"
+  version "1.0.7"
+  sha256 "ab79bf0b357dcc36d8b8d366cc034a67d37294c3713ee6f87e668ea28f0cdb6f"
 
   url "https://github.com/statico/macotron/releases/download/v#{version}/Macotron-#{version}.dmg"
   name "Macotron"
