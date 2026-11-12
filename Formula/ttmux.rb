@@ -3,28 +3,28 @@
 class Ttmux < Formula
   desc "Modern multiplexer alternative with tiling and free-floating panes"
   homepage "https://github.com/statico/ttmux"
-  version "1.1.2"
+  version "1.1.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/statico/ttmux/releases/download/v1.1.2/ttmux-aarch64-apple-darwin.tar.gz"
-      sha256 "109eefc74b0e83a9fb8d32ea53073cc10eb823d8c7b7a9c9248cf84e4fef56bd"
+      url "https://github.com/statico/ttmux/releases/download/v1.1.3/ttmux-aarch64-apple-darwin.tar.gz"
+      sha256 "a4c4fe8ccc1fe28a5be5408d6fae0167e58eb89c24747b785fbc0d6a7acf9a07"
     end
     on_intel do
-      url "https://github.com/statico/ttmux/releases/download/v1.1.2/ttmux-x86_64-apple-darwin.tar.gz"
-      sha256 "b6ef5df65cc13a09057c11735abd9dc84746e2080e94abe1a2b500572ca664c1"
+      url "https://github.com/statico/ttmux/releases/download/v1.1.3/ttmux-x86_64-apple-darwin.tar.gz"
+      sha256 "736a6b359baa772dc92c95a4a90a2d78eed0ceb71aba9f898293a4c6a263e884"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/statico/ttmux/releases/download/v1.1.2/ttmux-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2339e6b71a8030175a4a3058e4c1866280f2caafa36a7da161e2d3b48ad225d1"
+      url "https://github.com/statico/ttmux/releases/download/v1.1.3/ttmux-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "5d9ca059db8b2309f7916b0a170a7d91401487e20a00ea934ecdf9063c55216f"
     end
     on_intel do
-      url "https://github.com/statico/ttmux/releases/download/v1.1.2/ttmux-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0acbf7c503eec5a0096fb599e3fbef5bd3f983041bc4508e7065386807348af1"
+      url "https://github.com/statico/ttmux/releases/download/v1.1.3/ttmux-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "88ebe92770844297e4e93436daf6e18e9526417a8e90964e776789c0e1865742"
     end
   end
 
